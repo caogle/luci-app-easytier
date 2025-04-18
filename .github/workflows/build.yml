@@ -24,7 +24,6 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-        arch:
           - aarch64_generic
           - x86_64
         sdk:
