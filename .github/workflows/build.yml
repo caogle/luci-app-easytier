@@ -24,13 +24,12 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_cortex-a53
-    #      - aarch64_cortex-a72
+        arch:
           - aarch64_generic
           - x86_64
         sdk:
           - openwrt-22.03
-          - SNAPSHOT
+       #   - SNAPSHOT
 
     steps:
       - uses: actions/checkout@v4
